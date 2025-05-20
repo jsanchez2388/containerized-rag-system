@@ -1,0 +1,25 @@
+/* Conversation display should take up the available space */
+.conversation-container {
+    flex-grow: 1;
+    width: 100%;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+/* Styling messages */
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.message.User {
+    background-color: #d1e7dd;
+    align-self: flex-start;
+}
+
+.message.CRAIG {
+    background-color: #cfe2ff;
+    align-self: flex-end;
+}

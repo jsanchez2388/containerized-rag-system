@@ -1,4 +1,5 @@
 import React from 'react';
+import './ConversationDisplay.css';
 
 function ConversationDisplay({ conversation }) {
   return (

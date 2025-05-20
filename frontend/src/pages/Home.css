@@ -1,0 +1,19 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    height: 100vh;
+}
+
+/* Centering the conversation and input components*/
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;  /* Center horizontally */
+    flex-grow: 1;
+    width: 100%;
+}
